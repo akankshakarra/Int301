@@ -1,0 +1,11 @@
+# Nmap 7.93 scan initiated Wed Mar 22 22:51:44 2023 as: nmap -F -oN scan.txt -oX c:\\users\\hp\\appdata\\local\\temp\\zenmap-ftwlkh.xml 192.168.56.1
+Nmap scan report for 192.168.56.1
+Host is up (0.00050s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+
+# Nmap done at Wed Mar 22 22:51:45 2023 -- 1 IP address (1 host up) scanned in 0.30 seconds
